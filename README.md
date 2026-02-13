@@ -1,16 +1,29 @@
-## Hi there 👋
+# Selim Çelem
 
-<!--
-**selimcelem/selimcelem** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+AWS Certified Cloud Practitioner transitioning from BIM engineering into cloud infrastructure and automation.
 
-Here are some ideas to get you started:
+## Core Focus
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- AWS (S3, CloudFront, IAM, API Gateway, Lambda, DynamoDB)
+- Infrastructure as Code (Terraform)
+- CI/CD with GitHub Actions (OIDC, least-privilege IAM)
+- Serverless architectures
+
+## Featured Project
+
+### Cloud Resume Challenge (AWS)
+
+Production-ready AWS platform built with:
+
+- S3 + CloudFront + Route 53
+- API Gateway + Lambda + DynamoDB
+- Terraform (Infrastructure as Code)
+- GitHub Actions CI/CD
+
+Live: https://selimcelem.com  
+Backend: https://github.com/selimcelem/cloud-resume-challenge  
+Frontend: https://github.com/selimcelem/cloud-resume-frontend  
+
+---
+
+Currently preparing for AWS Solutions Architect Associate.
