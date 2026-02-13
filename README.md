@@ -8,6 +8,7 @@ AWS Certified Cloud Practitioner with a background in BIM engineering, now focus
 - Infrastructure as Code (Terraform)
 - CI/CD with GitHub Actions (OIDC, least-privilege IAM)
 - Serverless architectures
+- Backend testing with pytest
 
 ## Featured Project
 
