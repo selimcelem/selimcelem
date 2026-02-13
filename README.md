@@ -1,6 +1,6 @@
 # Selim Çelem
 
-AWS Certified Cloud Practitioner transitioning from BIM engineering into cloud infrastructure and automation.
+AWS Certified Cloud Practitioner with a background in BIM engineering, now focused on cloud infrastructure and automation.
 
 ## Core Focus
 
