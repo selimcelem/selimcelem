@@ -13,6 +13,18 @@ AWS Certified Cloud Practitioner with a background in BIM engineering, now focus
 
 ## Featured Projects
 
+### AWS SAA-C03 Practice App
+
+Cross-platform Android/Windows quiz app for AWS exam preparation, backed by a full serverless AWS infrastructure:
+
+* Cognito (Google OAuth, PKCE, Identity Pools with per-user IAM scoping)
+* S3 for score sync and question reporting
+* Lambda + EventBridge for scheduled digest email notifications via SNS
+* Terraform IaC, GitHub Actions CI/CD
+* .NET MAUI (Android + Windows)
+
+Repository: https://github.com/selimcelem/aws-saa-c03-practice-app
+
 ### Mini Cloud Deployment Platform
 
 Small AWS deployment platform for a containerized FastAPI application, built to demonstrate a production-style cloud workflow:
