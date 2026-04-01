@@ -13,7 +13,7 @@ AWS Certified Cloud Practitioner with a background in BIM engineering, now focus
 
 ## Featured Projects
 
-### Q-Atelier — Production AWS Website & Booking System
+### Q-Atelier - Production AWS Website & Booking System
 Full-stack serverless AWS platform for a live bridal atelier in the Netherlands:
 - S3 + CloudFront CDN with custom domain (q-atelier.nl) and ACM SSL
 - API Gateway + Lambda (Node.js) for booking management
