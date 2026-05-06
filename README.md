@@ -13,17 +13,18 @@ AWS Certified Cloud Practitioner with a background in BIM engineering, now focus
 
 ## Featured Projects
 
-### Q-Atelier - Production AWS Website & Booking System
-Full-stack serverless AWS platform for a live bridal atelier in the Netherlands:
-- S3 + CloudFront CDN with custom domain (q-atelier.nl) and ACM SSL
-- API Gateway + Lambda (Node.js) for booking management
-- DynamoDB for appointment storage with token-based confirmation flow
-- Resend API for transactional email with .ics calendar attachments
-- Terraform IaC with remote state, modular structure, GitHub Actions CI/CD
-- PENDING → ACCEPT / REJECT / RESCHEDULE booking flow with secure email links
+### AWS EKS Application Deployment Pipeline
+Production-grade AWS infrastructure and CI/CD pipeline for deploying a containerized application to Kubernetes:
 
-Live: https://www.q-atelier.nl
-Repository: https://github.com/selimcelem/q-atelier
+- VPC with public/private subnets across 3 availability zones, NAT Gateway and routing, provisioned via Terraform modules
+- EKS cluster with managed node group in private subnets, ECR repository with lifecycle policy
+- GitHub Actions CI/CD pipeline with OIDC authentication, no long-lived credentials stored anywhere
+- Docker image built and pushed to ECR on every push to main, tagged with git commit SHA
+- Helm chart with liveness/readiness probes, deployed to EKS via helm upgrade --install
+- IAM roles with least-privilege S3 access for pods via IRSA
+- Infrastructure is ephemeral, spun up with terraform apply and torn down with terraform destroy after each session
+
+Repository: https://github.com/selimcelem/aws-eks-pipeline
 
 ### AWS SAA-C03 Practice App
 
@@ -50,19 +51,6 @@ Small AWS deployment platform for a containerized FastAPI application, built to 
 
 Repository: https://github.com/selimcelem/mini-cloud-deployment-platform
 
-### Cloud Resume Challenge (AWS)
-
-Production-ready serverless AWS platform built with:
-
-- S3 + CloudFront + Route 53
-- API Gateway + Lambda + DynamoDB
-- Terraform (Infrastructure as Code)
-- GitHub Actions CI/CD
-
-Live: https://selimcelem.com  
-Backend: https://github.com/selimcelem/cloud-resume-challenge  
-Frontend: https://github.com/selimcelem/cloud-resume-frontend  
-
 ---
 
-Currently preparing for AWS Solutions Architect Associate and building hands-on cloud engineering portfolio projects.
+Currently preparing for AWS Solutions Architect Associate and actively building a hands-on cloud engineering portfolio.
