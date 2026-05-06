@@ -8,6 +8,7 @@ AWS Certified Cloud Practitioner with a background in BIM engineering, now focus
 - Infrastructure as Code with Terraform
 - CI/CD with GitHub Actions
 - Container deployments with Docker, ECR, and ECS Fargate
+- Kubernetes (EKS)
 - Serverless architectures on AWS
 - Production-minded IAM, logging, and operational workflows
 
